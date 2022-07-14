@@ -1,0 +1,9 @@
+# Title: J33p3rs/misc/blocklist
+#
+# This hosts file is a custom colelction of hosts 
+# for use in DNS blocklisting. 
+#
+# Date in AU format
+# ===============================================================
+
+0.0.0.0 salinwa.com # Phishing 14/07/2022
