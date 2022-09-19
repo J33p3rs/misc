@@ -9,6 +9,9 @@ This was a session  run by Toowoomba Sectalks (0x01)
 6. Add block lists
 7. Create cronjobs to update pihole and reboot
 ### WPA_supplicant.conf
+This file can be done automatically when the SD Card is imaged using **Raspberry Pi Imager** and selecting the settings cog before writing the image.
+
+To complete manually, perform tthe following.
 
 From: https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/
 ```
