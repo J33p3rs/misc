@@ -29,4 +29,8 @@ network={
 }
 ```
 ## Resources
-https://medium.com/swlh/how-to-set-up-pi-hole-2293246dc8ed
+| Resoruce | Link | 
+| --- | --- | 
+| How to | https://medium.com/swlh/how-to-set-up-pi-hole-2293246dc8ed| 
+| SANS Internet Storm Centre Diary re: pihoile blocklists | https://handlers.sans.edu/gbruneau/pihole.htm |
+
