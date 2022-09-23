@@ -9,7 +9,7 @@ This was a session  run by Toowoomba Sectalks (0x01)
  * Using bash script from pihoile repo
 7. Add block lists
 8. Update default passwords etc
-9. Create cronjobs to update pihole and reboot
+9. Create cronjobs to update pihole, update gravity and reboot
 
 ### WPA_supplicant.conf
 This file can be done automatically when the SD Card is imaged using **Raspberry Pi Imager** and selecting the settings cog before writing the image.
