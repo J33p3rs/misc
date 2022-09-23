@@ -1,15 +1,15 @@
 # Pihole on Pi Zero W
 This was a session  run by Toowoomba Sectalks (0x01)
 ## Overview of process
-1. Install Rasperry Pi OS (If using Rasperry Pi Imager this can be done within settings via cog)
+* Install Rasperry Pi OS (If using Rasperry Pi Imager this can be done within settings via cog)
  * Setup wpa_supplicant.conf
  * Create blank ssh file
-4. Boot pi
-5. Install pihole
+* Boot pi
+* Install pihole
  * Using bash script from pihoile repo
-7. Add block lists
-8. Update default passwords etc
-9. Create cronjobs to update pihole, update gravity and reboot
+* Add block lists
+* Update default passwords etc
+* Create cronjobs to update pihole, update gravity and reboot
 
 ### WPA_supplicant.conf
 This file can be done automatically when the SD Card is imaged using **Raspberry Pi Imager** and selecting the settings cog before writing the image.
