@@ -2,12 +2,13 @@
 This was a session  run by Toowoomba Sectalks (0x01)
 ## Overview of process
 * Install Rasperry Pi OS (If using Rasperry Pi Imager this can be done within settings via cog)
- * Setup wpa_supplicant.conf
- * Create blank ssh file
+  * Setup wpa_supplicant.conf
+  * Create blank ssh file
 * Boot pi
 * Install pihole
- * Using bash script from pihoile repo
+  * Use bash script from pihoile repo
 * Add block lists
+  * SANS Blocklists 
 * Update default passwords etc
 * Create cronjobs to update pihole, update gravity and reboot
 
