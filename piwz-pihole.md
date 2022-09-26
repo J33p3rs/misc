@@ -31,33 +31,35 @@ network={
 }
 ```
 ## Crontab
+For the pi it is best to edit this via `vi /etc/crontab` rather than `crontab -e`
+
 ```
 ### Pihole Backup ###
 # Backup Pi-hole configuration (settings & lists) as a downloadable archive
 
 # Daily Backup at 23:15 every day
-15 23 * * * pihole -a -t ~/backup/backup_daily
+15 23 * * * pi pihole -a -t ~/backup/backup_daily
 
 # Weekly backup at 23:30 every Monday
-30 23 * * 1 pihole -a -t ~/backup/backup_weekly
+30 23 * * 1 pi pihole -a -t ~/backup/backup_weekly
 
 # Monthly backup at 23:45 on the 1st of each month
-45 23 1 * * pihole -a -t ~/backup/backup_monthly
+45 23 1 * * pi pihole -a -t ~/backup/backup_monthly
 
 ### Updates ###
 
 # Update apt package index at midnight every day.
-0 0 * * * sudo apt update
+0 0 * * * pi sudo apt update
 
 # Update Pi-hole to latest at 01:00am every day
-0 1 * * * pihole -up
+0 1 * * * pi pihole -up
 
 # Upgrade Raspberry Pi OS every week at 02:00am on Mondays
 
-0 2 * * 1 sudo apt upgrade -y
+0 2 * * 1 pi sudo apt upgrade -y
 
 # Update Gravity (Pi-hole block lists) every 4 hours
-30 0/4 * * * pihole -g
+30 0/4 * * * pi pihole -g
 ```
 ## Resources
 | Resoruce | Link | 
