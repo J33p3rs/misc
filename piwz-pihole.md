@@ -58,8 +58,9 @@ For the pi it is best to edit this via `vi /etc/crontab` rather than `crontab -e
 
 0 2 * * 1 pi sudo apt upgrade -y
 
-# Update Gravity (Pi-hole block lists) every 4 hours
-30 0/4 * * * pi pihole -g
+# Update Gravity (Pi-hole block lists) every 4 hours, at 50 mins past the hour.
+50 */4 * * * pi pihole -g
+
 ```
 ## Resources
 | Resoruce | Link | 
