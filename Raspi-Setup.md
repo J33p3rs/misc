@@ -1,5 +1,5 @@
 # Raspberry Pi setup
-Teh following are general items you may wish to configure on any Raspberry Pi set up.
+The following are general items you may wish to configure on any Raspberry Pi set up.
 
 ## Regenerate SSH Key
 You may wish to regenerate your SSH Key
