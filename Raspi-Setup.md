@@ -12,7 +12,7 @@ If you are logged in as the user you wiish to change the password for:
 ```
 passwd
 ```
-# And add a non root user
+## Add a non root user
 
 `sudo adduser bob`
 
@@ -40,7 +40,9 @@ Alternatively, use systemctl to start the service
 
 ### Headless SSH
 If you want to run headless, PRIOR to first boot do the following:
+
 from: https://www.raspberrypi.org/documentation/remote-access/ssh/README.md
+
 >3. Enable SSH on a headless Raspberry Pi (add file to SD card on another machine)
 >For headless setup, SSH can be enabled by placing a file named ssh, without any extension, onto the boot partition of the SD 
 >card from another computer. When the Pi boots, it looks for the ssh file. If it is found, SSH is enabled and the file is deleted. 
