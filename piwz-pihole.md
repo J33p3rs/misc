@@ -1,8 +1,8 @@
 # Pihole on Pi Zero W
 This was a session  run by Toowoomba Sectalks (0x01)
 ## Overview of process
-* Install Rasperry Pi OS (If using Rasperry Pi Imager this can be done within settings via cog)
-  * Setup wpa_supplicant.conf
+* Install Rasperry Pi OS (look for more and select raspberry ppi os lite - no need for a desktop ui)
+  * Setup wpa_supplicant.conf (If using Rasperry Pi Imager wifi can be done within settings via cog)
   * Create blank ssh file
 * Boot pi
 * Set static IP if wanted
