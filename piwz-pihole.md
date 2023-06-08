@@ -5,6 +5,7 @@ This was a session  run by Toowoomba Sectalks (0x01)
   * Setup wpa_supplicant.conf
   * Create blank ssh file
 * Boot pi
+* Set static IP if wanted
 * Install pihole
   * Use bash script from pihoile repo
 * Add block lists
@@ -30,6 +31,9 @@ network={
  psk="Pa55w0rd1234"
 }
 ```
+## Set Static IP
+https://github.com/J33p3rs/misc/blob/main/Raspi-Setup.md
+
 ## Crontab
 For the pi it is best to edit this via `vi /etc/crontab` rather than `crontab -e`
 
