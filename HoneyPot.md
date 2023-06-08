@@ -2,7 +2,8 @@
 This outlines how to install and configure OpenCanary on a Pi3.
 
 ## Prepare the Pi
-Use instructioons here up to *Installing Required Packages*
+Use instructions here up to *OpenCanary Installation*
+https://bobmckay.com/i-t-support-networking/hardware/create-a-security-honey-pot-with-opencanary-and-a-raspberry-pi-3-updated-2021/
 
 ## Install prerequisites and OpenCanary
 Follow installl instructions here: https://github.com/thinkst/opencanary for Ubuntu.
