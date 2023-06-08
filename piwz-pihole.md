@@ -34,7 +34,23 @@ network={
 ## Set Static IP
 https://github.com/J33p3rs/misc/blob/main/Raspi-Setup.md
 
-## Crontab
+## Install PiHole
+From https://github.com/pi-hole/pi-hole
+
+You may have to `sudo su -` to get the installer to run with root privs - it will error otherwise
+```
+[i] Root user check
+  [i] Script called with non-root privileges
+      The Pi-hole requires elevated privileges to install and run
+      Please check the installer for any concerns regarding this requirement
+      Make sure to download this script from a trusted source
+
+```
+
+## Add blocklists
+From SANS and personaal list.
+
+## Crontab for updates and backup
 For the pi it is best to edit this via `vi /etc/crontab` rather than `crontab -e`
 
 ```
@@ -69,6 +85,7 @@ For the pi it is best to edit this via `vi /etc/crontab` rather than `crontab -e
 ## Resources
 | Resoruce | Link | 
 | --- | --- | 
-| How to | https://medium.com/swlh/how-to-set-up-pi-hole-2293246dc8ed| 
+| How to | https://medium.com/swlh/how-to-set-up-pi-hole-2293246dc8ed|
+| Pihole Github |  https://github.com/pi-hole/pi-hole |
 | SANS Internet Storm Centre Diary re: pihoile blocklists | https://handlers.sans.edu/gbruneau/pihole.htm |
 
