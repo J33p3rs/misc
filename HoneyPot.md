@@ -8,6 +8,8 @@ https://bobmckay.com/i-t-support-networking/hardware/create-a-security-honey-pot
 ## Install prerequisites and OpenCanary
 Follow installl instructions here: https://github.com/thinkst/opencanary for Ubuntu.
 
+>**Note** As we are only using the pi for opencanary there is not a need to build it in a venv.
+
 ## Configure Open Canary
 ### Move SSH Port
 Get a list of least common ports from nmap, pick one of these to migrate your managment SSH to maybe?
@@ -15,6 +17,12 @@ Get a list of least common ports from nmap, pick one of these to migrate your ma
 cd /usr/share/nmap
 grep unknown nmap-services | awk -F" " '{print $3 " " $2}' | sort | head
 ```
+Edit sshd_config:
+`sudo nano /etc/ssh/sshd_config`
+
+Find `#Port 22` and uncomment it, and add the port you wish to use.
+
+
 ### Configure Services
 * Copy config file
 * Edit config file
