@@ -64,7 +64,8 @@ We can check the service status by running:
 | Type | Link |
 | --- | --- | 
 | Config examples | <li> https://bobmckay.com/i-t-support-networking/hardware/create-a-security-honey-pot-with-opencanary-and-a-raspberry-pi-3-updated-2021/ <br><li> https://medium.com/@nahberry/opencanary-on-a-raspberry-pi-528242fcb3dd <br><li> https://opencanary.readthedocs.io/en/latest/starting/configuration.html |
-
+| Colby's Honeypot workshop | https://github.com/colbyprior/honeypot-workshop/tree/master |
+| Some other Canary things to try | https://github.com/sudosammy/knary <br> https://github.com/intelowlproject/IntelOwl |
 
 
 
