@@ -8,7 +8,7 @@ https://bobmckay.com/i-t-support-networking/hardware/create-a-security-honey-pot
 ## Install prerequisites and OpenCanary
 Follow installl instructions here: https://github.com/thinkst/opencanary for Ubuntu.
 
->**Note** As we are only using the pi for opencanary there is not a need to build it in a venv.
+>**Note** As we are only using the pi for opencanary there is not a need to build it in a venv. Although this helps managing dependencies a little easier.
 
 ## Configure Open Canary
 ### Move SSH Port
