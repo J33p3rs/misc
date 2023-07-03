@@ -27,26 +27,52 @@ Find `#Port 22` and uncomment it, and add the port you wish to use.
 * Copy config file
 * Edit config file
 
+### Making it Autostart -- cron
 
-### Making it Autostart
+For the pi it is best to edit this via vi /etc/crontab rather than crontab -e
+
+````
+### OpenCanary start ###
+# Start OpenCanary every 5 mins, this way if it fails, it gets started again.
+# (Bit of a hack until I get systemctl working)
+
+# Start every 5 mins
+5 * * * * pi opencanaryd --start
+
+```
+
+### Making it Autostart - systemctl attempt
+> After a bit of work I ended up giving up on the systemctl approach.
+>
+> Most likely it is related to the following:
+> `journalctl _SYSTEMD_UNIT=opencanary.service`
+>
+> `Traceback (most recent call last):`
+> `File "/home/jp/.local/bin/twistd", line 5, in <module>`
+> `from twisted.scripts.twistd import run`
+> `ModuleNotFoundError: No module named 'twisted'`
+
+*I'll elave it hhere for future regerence*
+
 From: https://bobmckay.com/i-t-support-networking/hardware/create-a-security-honey-pot-with-opencanary-and-a-raspberry-pi-3-updated-2021/
 
 In order to have OpenCanary service automatically start on boot up, we need to create a systemd file for it:
 
 `sudo nano /etc/systemd/system/opencanary.service`
 
-Then give it a configuration:
+Then give it a configuration (note the oneshot config item is removed in the below, that was on the OpenCanary instruuctions. Also, you will need ot replace the `<VIRTUAL_ENV_PATH>` with the path to your configuration, maybe `/home/pi/.local`? :
 ```
 [Unit]
 Description=OpenCanary
 After=syslog.target
-After=network.target
+After=network-online.target
 
 [Service]
 User=root
+RemainAfterExit=yes
 Restart=always
-WorkingDirectory=/home/pi/opencanary
-ExecStart=/home/pi/opencanary/bin/opencanaryd --dev
+ExecStart=<VIRTUAL_ENV_PATH>/bin/opencanaryd --start
+ExecStop=<VIRTUAL_ENV_PATH>/bin/opencanaryd --stop
 
 [Install]
 WantedBy=multi-user.target
