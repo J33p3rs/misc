@@ -31,7 +31,7 @@ Find `#Port 22` and uncomment it, and add the port you wish to use.
 
 For the pi it is best to edit this via vi /etc/crontab rather than crontab -e
 
-````
+```
 ### OpenCanary start ###
 # Start OpenCanary every 5 mins, this way if it fails, it gets started again.
 # (Bit of a hack until I get systemctl working)
