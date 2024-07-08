@@ -9,3 +9,4 @@ This page includes links to published talks, presentations, and other things tha
 | AusCERT 2021 | Before You Leave The Nest Preparing to SOAR | https://youtu.be/YjhJcU5xL_4?si=V7ttamcVwE52bTx8 |
 | AusCERT Podcast (31-Mar-2022)- Share Today, Save Tomorrow |010 – Security Orchestration, Automation and Response  | https://podcast.app/security-orchestration-automation-and-response-e308328159 |
 | CrikeyCon 2022 | Doin' it for the kids |  https://www.youtube.com/watch?v=CqmmW3BV7jc |
+| AusCERT 2024 | Privacy Pioneers: A Blueprint for Security Professionals to Kick Start a Privacy Program | https://www.youtube.com/watch?v=UVYo07CeF0c&list=PLrirtPWcnfasXf-vIIAVIyCUZA7KKJzNP&index=28
