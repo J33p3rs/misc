@@ -11,4 +11,4 @@ This page includes links to published talks, presentations, and other things tha
 | AusCERT 2022 | RETHINK YOUR CAPABILITIES: IMPOSTER SYNDROME MIGHT BE IMPACTING YOU | https://www.youtube.com/watch?v=Ti2aFy8mDXY
 | CrikeyCon 2022 | Doin' it for the kids |  https://www.youtube.com/watch?v=CqmmW3BV7jc |
 | AusCERT 2024 | Privacy Pioneers: A Blueprint for Security Professionals to Kick Start a Privacy Program | https://www.youtube.com/watch?v=UVYo07CeF0c&list=PLrirtPWcnfasXf-vIIAVIyCUZA7KKJzNP&index=28 |
-| APNIC Academy | How to stand up fun incident response exercises with zero experience | https://academy.apnic.net/en/events?id=a0BOc000000SPBZMA4 |
+| APNIC Academy 2024| How to stand up fun incident response exercises with zero experience | https://academy.apnic.net/en/events?id=a0BOc000000SPBZMA4 |
