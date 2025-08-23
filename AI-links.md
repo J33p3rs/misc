@@ -1,5 +1,5 @@
 # AI related Links
-The following links were used during research for a presentation on AI at SecTalks Toowoomba (0x36) in Juuly 2023.
+The following links were used during research for a presentation on AI at SecTalks Toowoomba (0x36) in July 2023.
 
 ## Referencecs used:
 In no particular order:
