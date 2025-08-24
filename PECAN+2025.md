@@ -22,6 +22,8 @@ Further info, some of which was covered during the training day can be found in 
 | `strings` | Prints human-readable strings from binary files. | `strings /bin/ls` |
 | `readelf` | Displays ELF binary information (headers, sections, symbols). | `readelf /bin/ls` |
 
+More here: [https://www.geeksforgeeks.org/linux-unix/kali-linux-command-line-essentials/](https://www.geeksforgeeks.org/linux-unix/kali-linux-command-line-essentials/)
+
 ## Things to check out (tools, links, and other random things)
 
 
