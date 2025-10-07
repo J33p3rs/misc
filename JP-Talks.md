@@ -12,7 +12,7 @@ This page includes links to published talks, presentations, and other things tha
 | 2022 | CrikeyCon | Doin’ it for the kids (with Cam) | [YouTube](https://www.youtube.com/watch?v=CqmmW3BV7jc) | Crowd-sourced parent/caregiver security talk. |
 | 2022 | AusCERT | RETHINK YOUR CAPABILITIES: IMPOSTER SYNDROME MIGHT BE IMPACTING YOU | https://www.youtube.com/watch?v=Ti2aFy8mDXY | |
 | 2022 | AusCERT Podcast | Ep. 10 — Security Orchestration, Automation & Response (SOAR) (panel incl. JP) | [AusCERT podcast page](https://www.auscert.org.au/podcast/podcast-ep-10-soar/) | Also on SoundCloud/Apple. |
-| 2024 | AussCERT | Privacy Pioneers: A Blueprint for Security Professionals to Kick Start a Privacy Program | https://youtu.be/UVYo07CeF0c?si=58sInKNYoyG-BoEs | |
+| 2024 | AusCERT | Privacy Pioneers: A Blueprint for Security Professionals to Kick Start a Privacy Program | https://youtu.be/UVYo07CeF0c?si=58sInKNYoyG-BoEs | |
 | 2024 |  APNIC Academy | How to stand up fun incident response exercises with zero experience | https://academy.apnic.net/en/events?id=a0BOc000000SPBZMA4 | |
 
 
