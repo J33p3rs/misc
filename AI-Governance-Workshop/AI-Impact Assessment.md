@@ -24,7 +24,7 @@
 
 ## Key Risk Areas
 
-- Lethal trifecta  
+- Lethal trifecta  https://simonw.substack.com/p/the-lethal-trifecta-for-ai-agents
 
 ## Stakeholder Impact
 
