@@ -88,4 +88,5 @@ For the pi it is best to edit this via `vi /etc/crontab` rather than `crontab -e
 | How to | https://medium.com/swlh/how-to-set-up-pi-hole-2293246dc8ed|
 | Pihole Github |  https://github.com/pi-hole/pi-hole |
 | SANS Internet Storm Centre Diary re: pihoile blocklists | https://handlers.sans.edu/gbruneau/pihole.htm |
+| Burst Bytes best list collection | https://blog.burstbytes.com.au/best-2026-pi-hole-blocklists-and-how-to-install-them/ |
 
